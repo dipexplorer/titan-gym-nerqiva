@@ -27,7 +27,7 @@ export default function HeroSection() {
           priority
           className="object-cover object-center opacity-40 mix-blend-luminosity scale-105"
         />
-        <div className="absolute inset-0 bg-linear-to-t from-obsidian via-obsidian/70 to-obsidian/40" />
+        <div className="absolute inset-0 bg-linear-to-t  from-obsidian via-obsidian/70 to-obsidian/40" />
         <div className="absolute inset-0 bg-radial from-transparent via-obsidian/60 to-obsidian" />
       </div>
 

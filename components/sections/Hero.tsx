@@ -20,7 +20,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-[100dvh] w-full flex items-center overflow-hidden bg-sand pt-32 pb-20 lg:pt-40 lg:pb-32"
+      className="relative min-h-dvh w-full flex items-center overflow-hidden bg-sand pt-32 pb-20 lg:pt-40 lg:pb-32"
     >
       {/* ── Interactive Liquid Water Ripple Shader Layer ───────────────── */}
       <RippleHero />
@@ -109,7 +109,7 @@ export default function Hero() {
             transition={{ duration: 1.4, delay: 0.3, ease: EASE }}
             className="lg:col-span-5 relative flex justify-center lg:justify-end"
           >
-            <div className="relative w-full max-w-sm lg:max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-[0_25px_60px_rgba(46,44,41,0.08)] border border-sand-tone/40 bg-sand-tint group">
+            <div className="relative w-full max-w-sm lg:max-w-md aspect-3/4 rounded-2xl overflow-hidden shadow-[0_25px_60px_rgba(46,44,41,0.08)] border border-sand-tone/40 bg-sand-tint group">
               {/* Soft studio scene SVG representation */}
               <div className="absolute inset-0 bg-linear-to-tr from-sage-tint/60 via-sand-tint to-terracotta-tint/40 flex items-center justify-center p-8">
                 <div className="text-center flex flex-col items-center gap-6">

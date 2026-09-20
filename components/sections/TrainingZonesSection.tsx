@@ -75,7 +75,7 @@ export default function TrainingZonesSection() {
                     className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out opacity-80"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
-                  <div className="absolute inset-0 bg-linear-to-t from-charcoal via-charcoal/30 to-transparent" />
+                  <div className="absolute inset-0 bg-linear-to-t  from-charcoal via-charcoal/30 to-transparent" />
                   <div className="absolute top-4 left-4 bg-gold text-obsidian font-display text-sm font-extrabold px-3 py-1 skew-x-[-8deg]">
                     ZONE 0{idx + 1}
                   </div>
