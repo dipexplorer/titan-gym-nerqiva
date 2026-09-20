@@ -12,6 +12,7 @@ interface ScrollRevealProps {
   direction?: 'up' | 'down' | 'left' | 'right' | 'fade';
   distance?: number;
   once?: boolean;
+  key?: React.Key | string;
 }
 
 export default function ScrollReveal({
