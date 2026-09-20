@@ -111,7 +111,7 @@ export default function Hero() {
           >
             <div className="relative w-full max-w-sm lg:max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-[0_25px_60px_rgba(46,44,41,0.08)] border border-sand-tone/40 bg-sand-tint group">
               {/* Soft studio scene SVG representation */}
-              <div className="absolute inset-0 bg-gradient-to-tr from-sage-tint/60 via-sand-tint to-terracotta-tint/40 flex items-center justify-center p-8">
+              <div className="absolute inset-0 bg-linear-to-tr from-sage-tint/60 via-sand-tint to-terracotta-tint/40 flex items-center justify-center p-8">
                 <div className="text-center flex flex-col items-center gap-6">
                   <div className="w-24 h-24 rounded-full border border-sage-base/30 bg-sand-tint/80 backdrop-blur-md flex items-center justify-center shadow-inner">
                     <span className="font-serif text-3xl text-sage-shade italic">aura</span>
